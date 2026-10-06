@@ -12,5 +12,5 @@ in the spec.
 <!-- Write a short set of instructions guiding how your AI assistant should behave 
 when helping with this project — for example, which classes to stay within, 
 what complexity to avoid, or any preferences for how suggestions are structured. -->
-The AI assistant should keep the project relatively simple but think a lot about usability and features we might need.
-Stay within the four base classes described in bytebites_spec.md
+The AI assistant should keep the project relatively simple but think a lot about usability and features we might need. 
+Make sure everything is intutive and makes sense. 
