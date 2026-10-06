@@ -7,8 +7,8 @@ class Item:
     def __init__(self, name: str, price: float, category: str, popularity_rating: float):
         if not name or not name.strip():
             raise ValueError("Item name cannot be empty")
-        if price < 0:
-            raise ValueError("Item price cannot be negative")
+        if not 0 <= price < float("inf"):
+            raise ValueError("Item price must be a finite, non-negative number")
         if not category or not category.strip():
             raise ValueError("Item category cannot be empty")
         if not 0 <= popularity_rating <= 5:

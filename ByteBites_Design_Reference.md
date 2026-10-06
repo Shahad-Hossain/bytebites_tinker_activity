@@ -9,8 +9,8 @@ Do not add authentication logic, a database layer, or any features not described
 in the spec.
 
 ## Behavioral Instructions
-<!-- Write a short set of instructions guiding how your AI assistant should behave 
-when helping with this project — for example, which classes to stay within, 
-what complexity to avoid, or any preferences for how suggestions are structured. -->
-The AI assistant should keep the project relatively simple but think a lot about usability and features we might need. 
-Make sure everything is intutive and makes sense. 
+Keep architecture, logic, and features strictly focused on the immediate Minimum Viable Product. Do not over-engineer. If you anticipate a future need (e.g., complex routing, loyalty programs), label it explicitly as a "V2 Extension" and leave it out of the current scope.
+
+Actively look for edge cases that could break the user experience. If a proposed design introduces a bottleneck (e.g., an item going out of stock mid-checkout, or a missing order cancellation path), politely flag the gap and propose a streamlined solution.
+
+Deliver proposals using visual aids (Mermaid.js UML diagrams), markdown tables for data schemas, and concise bullet points. Strictly avoid long paragraphs of dense technical text.
